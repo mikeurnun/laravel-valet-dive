@@ -20,14 +20,14 @@ class ProcessLoanSubmissions extends Controller
             'inputSSN'=>'required|integer|digits:9',
         ]);
 
-        //Loan to Value ratio
+        //Calculate "Loan to Value" ratio
         $ltv = round(($request->inputAmount/$request->inputPropertyValue)*100);
-        $result = array('result'=>'approved');
-        // if($ltv>=40){
-        //   $result['result'] = 'rejected';
-        // }else{
-        //   $result['result'] = 'approved';
-        // }
+
+        if($ltv>=40){
+          $result['result'] = 'rejected';
+        }else{
+          $result['result'] = 'approved';
+        }
         //Insert record to DB
         $submission = new ProcessForm;
         $submission->amount = $request->inputAmount;

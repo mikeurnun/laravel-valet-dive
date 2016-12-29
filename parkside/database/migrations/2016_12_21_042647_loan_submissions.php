@@ -16,9 +16,9 @@ class LoanSubmissions extends Migration
       Schema::create('loan_submissions', function (Blueprint $table) {
           $table->increments('id');
           $table->decimal('amount');
-          $table->decimal('property_value')->unique()->nullable();
+          $table->decimal('property_value');
           $table->integer('ssn');
-          $table->enum('status',['accepted','rejected']);
+          $table->enum('status',['rejected', 'approved']);
           $table->timestamps();
       });
     }
