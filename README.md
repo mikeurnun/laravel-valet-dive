@@ -1,5 +1,5 @@
 # Quick dive into ["Laravel Valet"](https://laravel.com/docs/5.3/valet)
-Simple loan request page using VueJS. This repo consists of 2 parts:
+Simple loan request page using VueJS. This repo consists of 2 parts:..<br />
 1. Laravel Valet environment<br />
 2. <code>parkside</code> site directory
 
