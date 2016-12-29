@@ -19,11 +19,11 @@ Simple loan request page using VueJS. This repo consists of 2 parts:
 2. Using your database utility tool of choice (phpMyAdmin, Sequel Pro, Mysql Workbench etc..), create a new database for parkside site
 3. Open <code>.env</code> file in your IDE of choice and modify following lines with correct database credentials:
   ```
-  DB_CONNECTION=mysql
-  DB_HOST=127.0.0.1
-  DB_PORT=3306
-  DB_DATABASE=homestead
-  DB_USERNAME=homestead
+  DB_CONNECTION=mysql<br />
+  DB_HOST=127.0.0.1<br />
+  DB_PORT=3306<br />
+  DB_DATABASE=homestead<br />
+  DB_USERNAME=homestead<br />
   DB_PASSWORD=secret
   ```
 4. Stage a new table in the database: <code>php artisan migrate:refresh</code>
