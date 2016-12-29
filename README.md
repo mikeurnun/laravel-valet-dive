@@ -41,5 +41,6 @@ DB_PASSWORD=secret
 ...<br />
 ..<br />
 .<br />
-- FYI, only thing Laravel Valet installs globally in your system is <code>dnsmasq</code> via <code>Homebrew</code>. If it's still there, simply run:
+- FYI, only thing Laravel Valet installs globally in your system is <code>dnsmasq</code> via <code>Homebrew</code>.
+<br />If it's still there, simply run:
 <code>brew uninstall dnsmasq</code>
