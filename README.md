@@ -1,6 +1,6 @@
 # Quick dive into ["Laravel Valet"](https://laravel.com/docs/5.3/valet)
 Simple loan request page using VueJS. This repo consists of 2 parts:
-1. Laravel Valet environment
+1. Laravel Valet environment<br />
 2. <code>parkside</code> site directory
 
 ## Installation steps in Terminal
@@ -30,7 +30,7 @@ DB_PASSWORD=secret
 5. Create & set new app key for parkside site: <code>php artisan key:generate</code>
 
 **You should be all set, open up your browser & go to: http://parkside.dev**
-
+**Online DEMO: http://narmandakh.com/parkside**
 ## Graceful uninstallation of everything above
 - Stop Valet: <code>./vendor/bin/valet stop</code>
 - Uninstall Valet: <code>./vendor/bin/valet uninstall</code>
