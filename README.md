@@ -3,7 +3,7 @@ Simple loan request page using VueJS. This repo consists of 2 parts:..<br />
 1. Laravel Valet environment<br />
 2. <code>parkside</code> site directory
 
-## Installation steps in Terminal
+## 1. Installation steps in Terminal
 #### This is least intrusive (i hope) to your local setup:
 1. Download this repo: <code>git clone https://github.com/mikeurnun/laravel-valet-dive.git</code>
 2. Navigate to downloaded directory: <code>cd laravel-valet-dive</code>
@@ -13,8 +13,9 @@ Simple loan request page using VueJS. This repo consists of 2 parts:..<br />
 6. Navigate to root of parkside site: <code>cd ./parkside</code>
 7. Install front-end dependencies: <code>npm install</code>
 8. Install back-end dependencies: <code>composer install</code>
+9. Run: <code>gulp --production</code>
 
-## Establish Database Connection
+## 2. Establish Database Connection
 1. Create a copy of <code>.env</code> file: <code>cp .env.example .env</code>
 2. Using your database utility tool of choice (phpMyAdmin, Sequel Pro, Mysql Workbench etc..), create a new database for parkside site
 3. Open <code>.env</code> file in your IDE of choice and modify following lines with correct database credentials:
