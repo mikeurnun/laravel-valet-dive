@@ -20,7 +20,7 @@ Simple loan request page using VueJS. This repo consists of 2 parts:
 3. Open <code>.env</code> file in your IDE of choice and modify following lines with correct database credentials:
 ```javascript
 DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
+DB_HOST=localhost
 DB_PORT=3306
 DB_DATABASE=homestead
 DB_USERNAME=homestead
@@ -29,17 +29,17 @@ DB_PASSWORD=secret
 4. Stage a new table in the database: <code>php artisan migrate:refresh</code>
 5. Create & set new app key for parkside site: <code>php artisan key:generate</code>
 
-**You should be all set, open up your browser & go to: http://parkside.dev**
+**You should be all set, open up your browser & go to: http://parkside.dev**<br />
 **Online DEMO: http://narmandakh.com/parkside**
 ## Graceful uninstallation of everything above
 - Stop Valet: <code>./vendor/bin/valet stop</code>
 - Uninstall Valet: <code>./vendor/bin/valet uninstall</code>
 - Remove database manually
 - Delete `laravel-valet-dive` directory & that's it!
-.
-..
-...
-..
-.
-- FYI, only thing Laravel Valet installs is dnsmasq via brew. If it's still there, simply run:
+.<br />
+..<br />
+...<br />
+..<br />
+.<br />
+- FYI, only thing Laravel Valet installs globally in your system is <code>dnsmasq</code> via <code>Homebrew</code>. If it's still there, simply run:
 <code>brew uninstall dnsmasq</code>
