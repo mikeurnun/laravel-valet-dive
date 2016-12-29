@@ -31,7 +31,8 @@ DB_PASSWORD=secret
 5. Create & set new app key for parkside site: <code>php artisan key:generate</code>
 
 **You should be all set, open up your browser & go to: http://parkside.dev**<br />
-**Online DEMO: http://narmandakh.com/parkside**
+**Online DEMO: http://parkside.narmandakh.com/**
+
 ## Graceful uninstallation of everything above
 - Stop Valet: <code>./vendor/bin/valet stop</code>
 - Uninstall Valet: <code>./vendor/bin/valet uninstall</code>
